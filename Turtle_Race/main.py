@@ -27,8 +27,8 @@ for x in range(len(turtle_list)):
     turtle_list[x].penup()
     turtle_list[x].color(turtle_colors[x])
 
-for x in range(len(turtle_list)):
-    turtle_list[x].goto(-300, set_pos)
+for _ in turtle_list:
+    _.goto(-300, set_pos)
     set_pos = set_pos - 100
 
 
